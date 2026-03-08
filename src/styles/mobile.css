@@ -1,0 +1,310 @@
+/* Global Mobile Responsiveness Enhancements */
+
+/* Extra Small Screens (320px - 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .container {
+    padding: 0.75rem;
+    max-width: 100%;
+  }
+
+  .section {
+    padding: 1.5rem 0 !important;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.2rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  h4 {
+    font-size: 0.95rem !important;
+  }
+
+  p {
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Grid Layouts */
+  .grid-2,
+  .grid-3,
+  .blog-grid,
+  .products-grid,
+  .services-grid,
+  .testimonials-grid,
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  /* Forms */
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+    padding: 0.6rem !important;
+    margin-bottom: 0.4rem !important;
+    width: 100% !important;
+  }
+
+  label {
+    font-size: 0.85rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 0.6rem 1rem !important;
+    font-size: 0.85rem !important;
+    width: 100% !important;
+    margin-bottom: 0.5rem !important;
+    min-height: 44px;
+  }
+
+  .btn-sm {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  .btn-lg {
+    padding: 0.65rem 1.2rem !important;
+    font-size: 0.85rem !important;
+  }
+
+  /* Images */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .blog-image {
+    height: 150px !important;
+  }
+
+  .product-image-container,
+  .service-image-container {
+    height: 140px !important;
+  }
+
+  .about-image-container {
+    height: 180px !important;
+  }
+
+  /* Cards */
+  .testimonial-card {
+    padding: 0.8rem !important;
+  }
+
+  .testimonial-avatar img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .case-study-card {
+    padding: 0.8rem !important;
+  }
+
+  .metric-value {
+    font-size: 1.25rem !important;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 1rem 0 !important;
+  }
+
+  .footer-section {
+    margin-bottom: 0.8rem !important;
+  }
+
+  /* Remove hover effects on touch */
+  @media (hover: none) {
+    button:hover,
+    a:hover {
+      transform: none !important;
+    }
+  }
+}
+
+/* Small Screens (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 2.5rem 0 !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.35rem !important;
+  }
+
+  h3 {
+    font-size: 1.1rem !important;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+    padding: 0.7rem !important;
+  }
+
+  .btn {
+    padding: 0.7rem 1.2rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .blog-image {
+    height: 200px !important;
+  }
+
+  .product-image-container,
+  .service-image-container {
+    height: 180px !important;
+  }
+
+  .grid-2,
+  .grid-3,
+  .blog-grid,
+  .products-grid,
+  .services-grid {
+    gap: 1.5rem !important;
+  }
+}
+
+/* Tablet (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.75rem !important;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .blog-grid,
+  .testimonials-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .products-grid,
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Desktop (1025px+) */
+@media (min-width: 1025px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .grid-2,
+  .products-grid,
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .blog-grid,
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Accessibility - Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1a1a1a;
+    color: #f0f0f0;
+  }
+}
+
+/* High DPI (Retina) Displays */
+@media (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+
+/* Landscape Mode Optimization */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    min-height: auto !important;
+    padding: 1.5rem 0 !important;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  .hero-tagline {
+    display: none;
+  }
+
+  .hero-buttons {
+    flex-direction: row !important;
+    gap: 0.5rem !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Improve focus for keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}

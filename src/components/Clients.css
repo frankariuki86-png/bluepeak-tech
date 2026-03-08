@@ -1,0 +1,125 @@
+.clients {
+  background: #f8f9fa;
+  padding: 5rem 0 !important;
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.client-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.client-card:hover {
+  box-shadow: none;
+  border-color: #1a3a52;
+  transform: none;
+}
+
+.client-logo {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.client-card h3 {
+  color: #0a0f1f;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.client-card p {
+  color: #718096;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.clients-info {
+  text-align: center;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 0;
+  border: 1px solid #e2e8f0;
+  margin-top: 2.5rem;
+}
+
+.clients-info p {
+  color: #4a5568;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .clients {
+    padding: 2rem 0 !important;
+  }
+
+  .clients-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .client-card {
+    padding: 1.5rem;
+  }
+
+  .client-logo {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .client-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .client-card p {
+    font-size: 0.85rem;
+  }
+
+  .clients-info {
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .clients-info p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .clients-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .clients {
+    padding: 3.5rem 0 !important;
+  }
+
+  .clients-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .client-card {
+    padding: 2rem;
+  }
+}
+
+  .clients-info {
+    padding: 2rem;
+  }
+}

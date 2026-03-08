@@ -1,0 +1,14 @@
+# BluePeak Tech Solutions robots.txt
+# Allow search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: *.js
+Disallow: *.css
+
+# Sitemap location
+Sitemap: https://bluepeaktech.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

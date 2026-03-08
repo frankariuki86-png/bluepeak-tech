@@ -1,0 +1,94 @@
+.partners {
+  background: #f8f9fa;
+  padding: 5rem 0 !important;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+}
+
+.partner-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.partner-card:hover {
+  box-shadow: none;
+  border-color: #1a3a52;
+  transform: none;
+}
+
+.partner-logo {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.partner-card h3 {
+  color: #0a0f1f;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.partner-card p {
+  color: #718096;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .partners {
+    padding: 2rem 0 !important;
+  }
+
+  .partners-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .partner-card {
+    padding: 1.5rem;
+  }
+
+  .partner-logo {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .partner-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .partner-card p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .partners {
+    padding: 3.5rem 0 !important;
+  }
+
+  .partners-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .partner-card {
+    padding: 2rem;
+  }
+}
