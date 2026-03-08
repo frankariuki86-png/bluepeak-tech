@@ -5,37 +5,37 @@ function Services() {
     {
       title: 'Consulting',
       description: 'We offer comprehensive business and technology consulting based on our in-depth IT expertise, proven best practices, and vast industry experience. Our consultants work closely with you to define requirements, identify opportunities, and implement strategic solutions that drive growth.',
-      image: 'https://source.unsplash.com/600x400/?consulting,business,meeting'
+      image: 'https://picsum.photos/seed/service-consulting/600/400'
     },
     {
       title: 'Application Development',
       description: 'We help define your requirements, write specifications and design, develop, test and integrate software across multiple platforms. This enables you to acquire high-quality custom applications tailored to your specific business needs.',
-      image: 'https://source.unsplash.com/600x400/?development,programming,code'
+      image: 'https://picsum.photos/seed/service-development/600/400'
     },
     {
       title: 'System Integration',
       description: 'We help you attain integration maturity from data synchronization, functional application integration, to seamless and secure business-process integration and optimization. Our solutions enable seamless data flow across your enterprise.',
-      image: 'https://source.unsplash.com/600x400/?integration,system,technology'
+      image: 'https://picsum.photos/seed/service-integration/600/400'
     },
     {
       title: 'IT Infrastructure',
       description: 'Cost effectively solve your key infrastructure challenges and grow IT as your business needs demand with modular, open, building-block based infrastructure solutions. We design scalable systems that support your growth.',
-      image: 'https://source.unsplash.com/600x400/?infrastructure,server,network'
+      image: 'https://picsum.photos/seed/service-infrastructure/600/400'
     },
     {
       title: 'Technical Support',
       description: 'Critical to keeping your systems running, our technical support services are designed to protect your multi-vendor environment. We offer flexible service level options and response times designed to meet your specific business needs.',
-      image: 'https://source.unsplash.com/600x400/?support,help,customer'
+      image: 'https://picsum.photos/seed/service-support/600/400'
     },
     {
       title: 'Customer Relationship Management',
       description: 'Build stronger customer relationships with integrated CRM solutions. Track interactions, manage service requests, automate communications, and gain insights that drive customer retention and revenue growth.',
-      image: 'https://source.unsplash.com/600x400/?crm,sales,business'
+      image: 'https://picsum.photos/seed/service-crm/600/400'
     },
     {
       title: 'IT Training',
       description: 'Training is integral to maximizing your organization\'s investment in technology. We provide onsite training, corporate training and professional certifications for our range of products and emerging technologies.',
-      image: 'https://source.unsplash.com/600x400/?training,education,learning'
+      image: 'https://picsum.photos/seed/service-training/600/400'
     }
   ]
 

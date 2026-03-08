@@ -9,7 +9,7 @@ function Blog() {
       author: 'BluePeak Team',
       date: 'March 6, 2026',
       category: 'Case Study',
-      image: 'https://source.unsplash.com/800x500/?human,resources,hrm'
+      image: 'https://picsum.photos/seed/blog-hcm/800/500'
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function Blog() {
       author: 'BluePeak Consulting',
       date: 'March 1, 2026',
       category: 'Strategy',
-      image: 'https://source.unsplash.com/800x500/?digital,transformation,business'
+      image: 'https://picsum.photos/seed/blog-digital/800/500'
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ function Blog() {
       author: 'BluePeak Tech',
       date: 'February 28, 2026',
       category: 'Technology',
-      image: 'https://source.unsplash.com/800x500/?integration,system,technology'
+      image: 'https://picsum.photos/seed/blog-integration/800/500'
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ function Blog() {
       author: 'Security Team',
       date: 'February 20, 2026',
       category: 'Security',
-      image: 'https://source.unsplash.com/800x500/?security,application,code'
+      image: 'https://picsum.photos/seed/blog-security/800/500'
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ function Blog() {
       author: 'BluePeak Experts',
       date: 'February 15, 2026',
       category: 'Best Practices',
-      image: 'https://source.unsplash.com/800x500/?crm,sales,customer'
+      image: 'https://picsum.photos/seed/blog-crm/800/500'
     },
     {
       id: 6,
@@ -54,7 +54,7 @@ function Blog() {
       author: 'Mobile Team',
       date: 'February 10, 2026',
       category: 'Strategy',
-      image: 'https://source.unsplash.com/800x500/?mobile,app,development'
+      image: 'https://picsum.photos/seed/blog-mobile/800/500'
     },
     {
       id: 7,
@@ -63,7 +63,7 @@ function Blog() {
       author: 'BluePeak Consultants',
       date: 'February 5, 2026',
       category: 'ROI',
-      image: 'https://source.unsplash.com/800x500/?custom,application,software'
+      image: 'https://picsum.photos/seed/blog-custom/800/500'
     },
     {
       id: 8,
@@ -72,7 +72,7 @@ function Blog() {
       author: 'Cloud Experts',
       date: 'January 30, 2026',
       category: 'Infrastructure',
-      image: 'https://source.unsplash.com/800x500/?cloud,migration,server'
+      image: 'https://picsum.photos/seed/blog-cloud/800/500'
     },
     {
       id: 9,
@@ -81,7 +81,7 @@ function Blog() {
       author: 'Innovation Team',
       date: 'January 25, 2026',
       category: 'Innovation',
-      image: 'https://source.unsplash.com/800x500/?ai,artificial,intelligence'
+      image: 'https://picsum.photos/seed/blog-ai/800/500'
     },
     {
       id: 10,
@@ -90,7 +90,7 @@ function Blog() {
       author: 'BluePeak Leadership',
       date: 'January 20, 2026',
       category: 'Insights',
-      image: 'https://source.unsplash.com/800x500/?technology,partner,business'
+      image: 'https://picsum.photos/seed/blog-partner/800/500'
     }
   ]
 

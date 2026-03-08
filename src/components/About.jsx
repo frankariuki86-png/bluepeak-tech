@@ -65,7 +65,7 @@ function About() {
           >
             <div className="about-image-container">
               <img 
-                src="https://source.unsplash.com/800x600/?team,business,office" 
+                src="https://picsum.photos/seed/bluepeak-about/800/600" 
                 alt="BluePeak Team Working Together" 
                 loading="lazy"
               />

@@ -7,28 +7,28 @@ function Team() {
       name: 'John Kipchoge',
       role: 'CEO & Lead Developer',
       bio: 'Full-stack expert with 8 years of experience',
-      image: 'https://source.unsplash.com/400x400/?man,professional,ceo,business',
+      image: 'https://picsum.photos/seed/team-john/400/400',
       social: { twitter: '#', linkedin: '#', github: '#' }
     },
     {
       name: 'Sarah Maina',
       role: 'Design Director',
       bio: 'UI/UX specialist and brand strategist',
-      image: 'https://source.unsplash.com/400x400/?woman,designer,professional,business',
+      image: 'https://picsum.photos/seed/team-sarah/400/400',
       social: { twitter: '#', linkedin: '#', github: '#' }
     },
     {
       name: 'David Kariuki',
       role: 'Backend Developer',
       bio: 'Database architect and API specialist',
-      image: 'https://source.unsplash.com/400x400/?man,developer,professional,engineer',
+      image: 'https://picsum.photos/seed/team-david/400/400',
       social: { twitter: '#', linkedin: '#', github: '#' }
     },
     {
       name: 'Grace Mutua',
       role: 'Project Manager',
       bio: 'Agile specialist and client liaison',
-      image: 'https://source.unsplash.com/400x400/?woman,professional,manager,business',
+      image: 'https://picsum.photos/seed/team-grace/400/400',
       social: { twitter: '#', linkedin: '#', github: '#' }
     }
   ]

@@ -5,7 +5,7 @@ function Projects() {
     {
       category: 'Human Capital Management',
       description: 'Streamline HR operations with our bluepeak HCM platform. Manage employee data, automate payroll, track benefits, and ensure compliance—all in one system. Reduce HR manual work by up to 60%.',
-      image: 'https://source.unsplash.com/600x400/?human,resources,business',
+      image: 'https://picsum.photos/seed/project-hcm/600/400',
       items: [
         'bluepeak Human Capital Management (HCM)',
         'Employee Data Management',
@@ -15,7 +15,7 @@ function Projects() {
     {
       category: 'Investment Management',
       description: 'Empower savings groups and investment clubs with secure digital platforms. Our bluepeak SACCO and Chama solutions provide real-time tracking, transparent reporting, and secure fund management for investment communities.',
-      image: 'https://source.unsplash.com/600x400/?finance,investment,money',
+      image: 'https://picsum.photos/seed/project-investment/600/400',
       items: [
         'bluepeak SACCO Solutions',
         'bluepeak Chama Portal',
@@ -25,7 +25,7 @@ function Projects() {
     {
       category: 'Finance Management',
       description: 'Manage finances with complete visibility. Our bluepeak Finance suite handles payroll processing, budgeting, expense tracking, and financial reporting—helping you maintain accuracy and compliance while reducing audit risks.',
-      image: 'https://source.unsplash.com/600x400/?accounting,finance,report',
+      image: 'https://picsum.photos/seed/project-finance/600/400',
       items: [
         'bluepeak Payroll System',
         'bluepeak Business Suite',
@@ -35,7 +35,7 @@ function Projects() {
     {
       category: 'Customer Relationship Management',
       description: 'Build stronger customer relationships with integrated CRM. Track interactions, manage service requests, automate communications, and gain insights that drive customer retention and revenue growth.',
-      image: 'https://source.unsplash.com/600x400/?business,customer,relationship',
+      image: 'https://picsum.photos/seed/project-crm/600/400',
       items: [
         'bluepeak Business Suite',
         'Customer Service Desk (OTRS)',
@@ -45,7 +45,7 @@ function Projects() {
     {
       category: 'Security Solutions',
       description: 'Protect your business from evolving cyber threats. We implement enterprise-grade security including endpoint protection, network security, and firewall solutions to safeguard your critical assets.',
-      image: 'https://source.unsplash.com/600x400/?security,lock,protection',
+      image: 'https://picsum.photos/seed/project-security/600/400',
       items: [
         'Sophos Endpoint Protection',
         'Juniper Network Security',
@@ -55,7 +55,7 @@ function Projects() {
     {
       category: 'Web Solutions',
       description: 'Build powerful online presence with modern web platforms. From e-commerce sites to content management systems, we create responsive, scalable solutions that convert visitors into customers.  ',
-      image: 'https://source.unsplash.com/600x400/?web,design,development',
+      image: 'https://picsum.photos/seed/project-web/600/400',
       items: [
         'E-Commerce Platforms',
         'Content Management Systems',
@@ -65,7 +65,7 @@ function Projects() {
     {
       category: 'Restaurant Chain Management',
       description: 'Comprehensive platform for restaurant operations including ordering, inventory, table management, and analytics. Streamline operations across multiple locations with real-time dashboard and customer management.',
-      image: 'https://source.unsplash.com/600x400/?restaurant,food,dining',
+      image: 'https://picsum.photos/seed/project-restaurant/600/400',
       items: [
         'Multi-Location Management',
         'Orders & Inventory Tracking',
@@ -76,7 +76,7 @@ function Projects() {
     {
       category: 'Educational Institute Management',
       description: 'Complete management system for educational institutions including student records, academics, attendance, and reporting. Streamline administrative operations and improve student engagement.',
-      image: 'https://source.unsplash.com/600x400/?education,school,learning',
+      image: 'https://picsum.photos/seed/project-education/600/400',
       items: [
         'Student Information System',
         'Academic Management',
@@ -87,7 +87,7 @@ function Projects() {
     {
       category: 'Bulk SMS System',
       description: 'Enterprise SMS marketing and communication platform for reaching customers instantly. Send bulk messages, manage campaigns, and track delivery with advanced analytics and segmentation.',
-      image: 'https://source.unsplash.com/600x400/?sms,messaging,communication',
+      image: 'https://picsum.photos/seed/project-sms/600/400',
       items: [
         'Bulk Message Sending',
         'Campaign Management',
@@ -98,7 +98,7 @@ function Projects() {
     {
       category: 'Employee Performance & Analytics',
       description: 'bluepeak employee performance evaluation and analytics system. Track employee goals, appraisals, development plans, and generate comprehensive performance reports for data-driven HR decisions.',
-      image: 'https://source.unsplash.com/600x400/?performance,analytics,business',
+      image: 'https://picsum.photos/seed/project-performance/600/400',
       items: [
         'Performance Evaluations',
         'Goal Tracking & Management',
