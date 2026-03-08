@@ -7,21 +7,21 @@ function Testimonials() {
       company: 'TechCorp Kenya',
       text: 'BluePeak\'s HCM solution transformed our HR operations. We saved thousands in manual processing costs and our team is happier than ever.',
       rating: 5,
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=85'
+      image: 'https://source.unsplash.com/150x150/?woman,professional,smile,business'
     },
     {
       name: 'Michael Chen',
       company: 'FinTech Innovations',
       text: 'The custom CRM BluePeak built increased our sales by 35% in just 6 months. Their team understood our business deeply and delivered perfectly.',
       rating: 5,
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=85'
+      image: 'https://source.unsplash.com/150x150/?man,professional,smile,business'
     },
     {
       name: 'Amara Okonkwo',
       company: 'EduSmart University',
       text: 'Implementing their UMIS system was smooth and professional. Our admin team\'s workload dropped significantly and students love the portal.',
       rating: 5,
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&q=85'
+      image: 'https://source.unsplash.com/150x150/?woman,professional,african,smile'
     }
   ]
 

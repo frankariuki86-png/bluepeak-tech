@@ -7,28 +7,28 @@ function Team() {
       name: 'John Kipchoge',
       role: 'CEO & Lead Developer',
       bio: 'Full-stack expert with 8 years of experience',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+      image: 'https://source.unsplash.com/400x400/?man,professional,ceo,business',
       social: { twitter: '#', linkedin: '#', github: '#' }
     },
     {
       name: 'Sarah Maina',
       role: 'Design Director',
       bio: 'UI/UX specialist and brand strategist',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+      image: 'https://source.unsplash.com/400x400/?woman,designer,professional,business',
       social: { twitter: '#', linkedin: '#', github: '#' }
     },
     {
       name: 'David Kariuki',
       role: 'Backend Developer',
       bio: 'Database architect and API specialist',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+      image: 'https://source.unsplash.com/400x400/?man,developer,professional,engineer',
       social: { twitter: '#', linkedin: '#', github: '#' }
     },
     {
       name: 'Grace Mutua',
       role: 'Project Manager',
       bio: 'Agile specialist and client liaison',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+      image: 'https://source.unsplash.com/400x400/?woman,professional,manager,business',
       social: { twitter: '#', linkedin: '#', github: '#' }
     }
   ]

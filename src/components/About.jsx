@@ -65,7 +65,7 @@ function About() {
           >
             <div className="about-image-container">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&q=85" 
+                src="https://source.unsplash.com/800x600/?team,business,office" 
                 alt="BluePeak Team Working Together" 
                 loading="lazy"
               />
