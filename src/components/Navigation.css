@@ -259,6 +259,43 @@
   }
 }
 
+@media (max-width: 320px) {
+  .navbar {
+    height: 45px;
+  }
+
+  .nav-container {
+    padding: 0 0.4rem;
+  }
+
+  .nav-logo {
+    gap: 0.15rem;
+    font-size: 0.75rem;
+  }
+
+  .logo-img {
+    height: 24px;
+  }
+
+  .nav-menu {
+    top: 45px;
+  }
+
+  .nav-menu li button {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .dropdown-item {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.7rem !important;
+  }
+
+  main {
+    margin-top: 45px;
+  }
+}
+
 @media (max-width: 480px) {
   .navbar {
     height: 50px;
@@ -274,7 +311,7 @@
   }
 
   .logo-img {
-    height: 32px;
+    height: 28px;
   }
 
   .nav-menu {
