@@ -1,8 +1,10 @@
 .hero {
   position: relative;
   padding: 5rem 0 4rem !important;
-  background: #f8f9fa;
-  min-height: 50vh;
+  background:
+    linear-gradient(135deg, rgba(10, 15, 31, 0.72) 0%, rgba(26, 58, 82, 0.65) 100%),
+    url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +12,7 @@
 
 .hero-content {
   text-align: left;
-  color: #0a0f1f;
+  color: #ffffff;
   max-width: 700px;
 }
 
@@ -18,7 +20,7 @@
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1.25rem;
-  color: #0a0f1f;
+  color: #ffffff;
   line-height: 1.15;
   letter-spacing: -0.02em;
 }
@@ -26,7 +28,7 @@
 .hero-subtitle {
   font-size: 1.35rem;
   margin-bottom: 0.75rem;
-  color: #1a3a52;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 300;
   line-height: 1.6;
 }
@@ -34,7 +36,7 @@
 .hero-tagline {
   font-size: 1.1rem;
   margin-bottom: 2.5rem;
-  color: #4a5568;
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   line-height: 1.6;
 }
@@ -72,22 +74,22 @@
 }
 
 .hero-buttons .btn-secondary {
-  background: white !important;
-  color: #1a3a52 !important;
-  border: 2px solid #1a3a52 !important;
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 2px solid rgba(255,255,255,0.8) !important;
 }
 
 .hero-buttons .btn-secondary:hover {
-  background: #f8f9fa !important;
-  border-color: #0f2844 !important;
-  color: #0f2844 !important;
+  background: rgba(255,255,255,0.15) !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .hero-trust {
   display: flex;
   gap: 2rem;
   font-size: 0.95rem;
-  color: #4a5568;
+  color: rgba(255, 255, 255, 0.85);
   flex-wrap: wrap;
 }
 
