@@ -9,7 +9,7 @@ function Blog() {
       author: 'BluePeak Team',
       date: 'March 6, 2026',
       category: 'Case Study',
-      image: 'https://picsum.photos/seed/blog-hcm/800/500'
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80'
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function Blog() {
       author: 'BluePeak Consulting',
       date: 'March 1, 2026',
       category: 'Strategy',
-      image: 'https://picsum.photos/seed/blog-digital/800/500'
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80'
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ function Blog() {
       author: 'BluePeak Tech',
       date: 'February 28, 2026',
       category: 'Technology',
-      image: 'https://picsum.photos/seed/blog-integration/800/500'
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80'
     },
     {
       id: 4,
@@ -36,66 +36,12 @@ function Blog() {
       author: 'Security Team',
       date: 'February 20, 2026',
       category: 'Security',
-      image: 'https://picsum.photos/seed/blog-security/800/500'
-    },
-    {
-      id: 5,
-      title: 'CRM Implementation Success: Lessons from 50+ Deployments',
-      excerpt: 'Learn what separates successful CRM deployments from failed ones. Discover the critical factors that ensure adoption, user engagement, and measurable business impact.',
-      author: 'BluePeak Experts',
-      date: 'February 15, 2026',
-      category: 'Best Practices',
-      image: 'https://picsum.photos/seed/blog-crm/800/500'
-    },
-    {
-      id: 6,
-      title: 'Mobile-First Strategy: Reaching Customers Where They Are',
-      excerpt: 'With 70% of customers accessing services via mobile, ignoring mobile platforms costs you revenue. Explore mobile technologies that drive engagement and growth.',
-      author: 'Mobile Team',
-      date: 'February 10, 2026',
-      category: 'Strategy',
-      image: 'https://picsum.photos/seed/blog-mobile/800/500'
-    },
-    {
-      id: 7,
-      title: 'The Total Cost of Ownership: Why Custom Apps Are Worth the Investment',
-      excerpt: 'Off-the-shelf software often costs more in the long run. Understand how custom applications reduce operational costs and adapt to your unique business needs.',
-      author: 'BluePeak Consultants',
-      date: 'February 5, 2026',
-      category: 'ROI',
-      image: 'https://picsum.photos/seed/blog-custom/800/500'
-    },
-    {
-      id: 8,
-      title: 'Cloud Migration Without the Headaches: A Complete Roadmap',
-      excerpt: 'Moving to the cloud doesn\'t have to be risky. Here\'s how to plan, execute, and optimize your cloud migration while minimizing disruption.',
-      author: 'Cloud Experts',
-      date: 'January 30, 2026',
-      category: 'Infrastructure',
-      image: 'https://picsum.photos/seed/blog-cloud/800/500'
-    },
-    {
-      id: 9,
-      title: 'AI in Enterprise Software: Beyond the Hype',
-      excerpt: 'AI is reshaping business intelligence and automation. Discover practical applications of AI that deliver measurable business value today.',
-      author: 'Innovation Team',
-      date: 'January 25, 2026',
-      category: 'Innovation',
-      image: 'https://picsum.photos/seed/blog-ai/800/500'
-    },
-    {
-      id: 10,
-      title: 'Why Your Business Needs a Dedicated Technology Partner',
-      excerpt: 'Technology is central to business success, but managing it requires expertise. Learn why outsourcing IT allows you to focus on core business while experts handle your tech.',
-      author: 'BluePeak Leadership',
-      date: 'January 20, 2026',
-      category: 'Insights',
-      image: 'https://picsum.photos/seed/blog-partner/800/500'
+      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80'
     }
   ]
 
   return (
-    <section className="blog section">
+    <section id="blog" className="blog section">
       <div className="container">
         <div className="section-title">
           <h2>Latest from Our Blog</h2>

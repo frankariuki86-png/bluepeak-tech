@@ -23,50 +23,48 @@ function Navigation({ scrolled }) {
       label: 'Products', 
       id: 'projects',
       dropdown: [
-        'Human Capital Management',
-        'Investment Management',
-        'Finance Management',
-        'Academic Management',
-        'Customer Relationship Management',
-        'Security Solutions',
-        'Mobile Solutions',
-        'Web Solutions'
+        { label: 'Human Capital Management', id: 'product-human-capital-management' },
+        { label: 'Appointment Booking System', id: 'product-appointment-booking-system' },
+        { label: 'Marketing Automation Platform', id: 'product-marketing-automation-platform' },
+        { label: 'Customer Relationship Management', id: 'product-customer-relationship-management' },
+        { label: 'Inventory & POS System', id: 'product-inventory-pos-system' },
+        { label: 'Web Solutions', id: 'product-web-solutions' },
+        { label: 'Restaurant Chain Management', id: 'product-restaurant-chain-management' },
+        { label: 'Educational Institute Management', id: 'product-educational-institute-management' },
+        { label: 'Bulk SMS System', id: 'product-bulk-sms-system' },
+        { label: 'Employee Performance & Analytics', id: 'product-employee-performance-analytics' },
       ]
     },
     {
       label: 'Services',
       id: 'services',
       dropdown: [
-        'Consulting',
-        'Application Development',
-        'System Integration',
-        'IT Infrastructure',
-        'Technical Support',
-        'IT Training'
+        { label: 'Consulting', id: 'service-consulting' },
+        { label: 'Application Development', id: 'service-application-development' },
+        { label: 'System Integration', id: 'service-system-integration' },
+        { label: 'IT Infrastructure', id: 'service-it-infrastructure' },
+        { label: 'Technical Support', id: 'service-technical-support' },
+        { label: 'IT Training', id: 'service-it-training' },
       ]
     },
     { 
       label: 'Blog', 
       id: 'blog',
       dropdown: [
-        'Latest Articles',
-        'Technology Trends',
-        'Case Studies',
-        'Best Practices',
-        'Industry Insights',
-        'Digital Transformation'
+        { label: 'HCM & HR Technology', id: 'blog' },
+        { label: 'Digital Transformation', id: 'blog' },
+        { label: 'Enterprise Integration', id: 'blog' },
+        { label: 'Application Security', id: 'blog' },
       ]
     },
     { 
       label: 'About', 
       id: 'about',
       dropdown: [
-        'Our Story',
-        'Our Team',
-        'Our Mission',
-        'Our Values',
-        'Why Choose Us',
-        'Success Stories'
+        { label: 'About BluePeak', id: 'about' },
+        { label: 'Our Team', id: 'team' },
+        { label: 'Our Services', id: 'services' },
+        { label: 'Contact Us', id: 'contact' },
       ]
     },
     { label: 'Contact', id: 'contact' },
@@ -104,7 +102,13 @@ function Navigation({ scrolled }) {
               onMouseEnter={() => item.dropdown && setActiveDropdown(item.label)}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button onClick={() => scrollToSection(item.id)}>
+              <button onClick={() => {
+                if (item.dropdown && window.innerWidth <= 768) {
+                  setActiveDropdown(prev => prev === item.label ? null : item.label)
+                } else {
+                  scrollToSection(item.id)
+                }
+              }}>
                 {item.label}
                 {item.dropdown && <span className="dropdown-arrow">▼</span>}
               </button>
@@ -114,9 +118,9 @@ function Navigation({ scrolled }) {
                     <button 
                       key={idx} 
                       className="dropdown-item"
-                      onClick={() => handleDropdownClick(item.id)}
+                      onClick={() => { scrollToSection(subitem.id); setActiveDropdown(null) }}
                     >
-                      {subitem}
+                      {subitem.label}
                     </button>
                   ))}
                 </div>

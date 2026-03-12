@@ -65,7 +65,7 @@ function About() {
           >
             <div className="about-image-container">
               <img 
-                src="https://picsum.photos/seed/bluepeak-about/800/600" 
+                src="/bluepeak professional team.jpeg" 
                 alt="BluePeak Team Working Together" 
                 loading="lazy"
               />

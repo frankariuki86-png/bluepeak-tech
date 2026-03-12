@@ -180,7 +180,7 @@ function Contact() {
                 <div className="info-icon">✉️</div>
                 <div>
                   <h4>Email</h4>
-                  <a href="mailto:bluepeak@gmail.com">bluepeak@gmail.com</a>
+                  <a href="mailto:bluepeaktechsolution@gmail.com">bluepeaktechsolution@gmail.com</a>
                 </div>
               </div>
 
@@ -202,10 +202,10 @@ function Contact() {
 
               <div className="social-links-contact">
                 <h4 style={{ marginBottom: '1rem' }}>Follow Us</h4>
-                <a href="https://www.facebook.com/bluepeak" target="_blank" rel="noopener noreferrer">Facebook</a>
-                <a href="https://www.instagram.com/bluepeak" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.facebook.com/share/18Baj4ovqz/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.instagram.com/bluepeaktechsolution?igsh=YnJrMTNsNHV3aGo0" target="_blank" rel="noopener noreferrer">Instagram</a>
                 <a href="https://wa.me/254711768878" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-                <a href="https://www.tiktok.com/@bluepeak" target="_blank" rel="noopener noreferrer">TikTok</a>
+                <a href="https://www.tiktok.com/@bluepeaktechsolution?_r=1&_t=ZS-94dCThzBxBZ" target="_blank" rel="noopener noreferrer">TikTok</a>
               </div>
             </div>
           </motion.div>

@@ -3,25 +3,25 @@ import './Testimonials.css'
 function Testimonials() {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      company: 'TechCorp Kenya',
-      text: 'BluePeak\'s HCM solution transformed our HR operations. We saved thousands in manual processing costs and our team is happier than ever.',
+      name: 'Grace Njeri',
+      company: 'Restaurant Chain Management',
+      text: 'BluePeak helped us unify orders, inventory, and branch reporting across our outlets. We now make faster decisions with real-time dashboards.',
       rating: 5,
-      image: 'https://picsum.photos/seed/testimonial-sarah/150/150'
+      image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=500&q=80'
     },
     {
-      name: 'Michael Chen',
-      company: 'FinTech Innovations',
-      text: 'The custom CRM BluePeak built increased our sales by 35% in just 6 months. Their team understood our business deeply and delivered perfectly.',
+      name: 'Daniel Otieno',
+      company: 'Employee Performance & Analytics',
+      text: 'The performance platform gave our managers clear goal tracking and appraisal workflows. Team productivity and accountability improved in one quarter.',
       rating: 5,
-      image: 'https://picsum.photos/seed/testimonial-michael/150/150'
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80'
     },
     {
-      name: 'Amara Okonkwo',
-      company: 'EduSmart University',
-      text: 'Implementing their UMIS system was smooth and professional. Our admin team\'s workload dropped significantly and students love the portal.',
+      name: 'Amina Yusuf',
+      company: 'ecommerce website',
+      text: 'Our ecommerce website now converts more visitors with a cleaner checkout and better mobile performance. Sales and repeat purchases are both up.',
       rating: 5,
-      image: 'https://picsum.photos/seed/testimonial-amara/150/150'
+      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80'
     }
   ]
 
